@@ -34,7 +34,7 @@ class Role(db.Model):
     updated_at = Column(TIMESTAMP)
 
 
-class year(db.Model):
+class Year(db.Model):
     __tablename__ = 'year'
 
     id = db.Column(db.Integer, primary_key=True)
